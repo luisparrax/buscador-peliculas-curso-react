@@ -3,7 +3,7 @@ import { useState } from "react"
 export const BuscadorPeliculas = () => {
 
     const urlBase = 'https://api.themoviedb.org/3/search/movie'
-    const API_TOKEN = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiODI5YjkxYjM3NzcwNTYxMjVkOGFjMDMxODI2MjkyYiIsIm5iZiI6MS43NDYwNTgyNzY5MzI5OTk4ZSs5LCJzdWIiOiI2ODEyYmMyNGRlMDI4NDcyNjdhMGVmYWQiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.pLDlIgxHVhDR86SvZVCyefCiscNW4M4bS92EaCNDtA4'
+    const API_TOKEN = '..'
 
     const [busqueda, setBusqueda] = useState('')
     const [peliculas, setPeliculas] = useState([])
